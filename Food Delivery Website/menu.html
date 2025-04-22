@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery Website</title>
+  <meta name="title" content="Fasteat - The Best Restaurants In Your Home">
+  <meta name="description" content="This is a food html template made by codewithsadee">
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    img:hover{
+        transform: scale(1.15);
+        top:0;
+    }
+  </style>
+</head>
+<body>
+  <div class="loading-container" data-loading-container>
+    <div class="loading-circle"></div>
+  </div>
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="logo.png" width="78" height="18" alt="i">
+      </a>
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <a href="#" class="logo">
+          <img src="" width="148" height="38" alt="i">
+        </a>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="Menu.html" class="navbar-link" data-nav-link>Menu</a>
+          </li>
+          <li class="navbar-item">
+            <a href="booking.html" class="navbar-link" data-nav-link>Booking</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-action">
+        <button class="cart-btn" aria-label="cart">
+          <ion-icon name="bag" aria-hidden="true"></ion-icon>
+        </button>
+        <a href="#" class="btn btn-primary has-after">Order Now</a>
+      </div>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-overlay data-nav-toggler></div>
+    </div>
+  </header>
+    <main style="padding-top: 100px;">
+        <article style="background:hsl(270, 100%, 98%)">
+            <section class="section instruction" aria-labelledby="">
+                <div class="container">
+                  <h2 class="h2 section-title" id="instruction-label" data-reveal>What's on your mind?</h2>
+                  <ul class="grid-list">
+                    <li data-reveal="left">
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="Pizza.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">Pizza</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li data-reveal>
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="chinese.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">Chinese</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li data-reveal="right">
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="Dosa.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">Dosa</h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </section>
+            <section class="section instruction" aria-labelledby="" style="padding-top: 20px;">
+                <div class="container">
+                  <h2 class="h2 section-title" id="instruction-label" data-reveal>Try Different?</h2>
+                  <ul class="grid-list">
+                    <li data-reveal="left">
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="B.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">Biryani</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li data-reveal>
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="S.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">South Indian</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li data-reveal="right">
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="N.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">North Indian</h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </section>
+            <section class="section instruction" aria-labelledby="" style="padding-top: 20px;">
+                <div class="container">
+                  <h3 class="h2 section-title" id="instruction-label" data-reveal>order something?</h3>
+                  <ul class="grid-list">
+                    <li data-reveal="left">
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="k.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">Egg-Biryani</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li data-reveal>
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="m.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">KFC-50% Off</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li data-reveal="right">
+                      <div class="instruction-card">
+                        <figure class="card-banner">
+                          <img src="kk.png" width="300" height="154" loading="lazy"
+                            alt="i" class="w-100" style="height: 235px;width: 300px">
+                        </figure>
+                        <div class="card-content">
+                          <h4 class="h5 card-title">Chicken-Pizza</h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+        </article>
+    </main>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
